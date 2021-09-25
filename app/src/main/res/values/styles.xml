@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TemaPersonalizado" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorPrimaryDark">@color/darkPurple</item>
+        <item name="colorAccent">@color/purple</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

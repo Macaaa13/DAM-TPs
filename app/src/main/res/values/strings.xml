@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CompraVenta</string>
+    <string name="titulo">Titulo</string>
+    <string name="textoTitulo">Titulo...</string>
+    <string name="descripcion">Descripcion (opcional)</string>
+    <string name="textoDescripcion">Descripcion del producto...</string>
+    <string name="correo">Correo de contacto</string>
+    <string name="textoCorreo">Correo electronico...</string>
+    <string name="precio">Precio</string>
+    <string name="textoPrecio">Precio...</string>
+    <string name="categoria">Categoria</string>
+    <string name="descuento">Ofrecer descuento de envio</string>
+    <string name="retiroEnPersona">Retiro en persona</string>
+    <string name="direccionRetiro">Direccion de retiro</string>
+    <string name="textoDireccionRetiro">Direccion de retiro...</string>
+    <string name="terminos">Aceptar los terminos y condiciones</string>
+    <string name="publicar">PUBLICAR</string>
+    <string name="porcentaje">0/100</string>
+    <string-array name="categorias">
+        <item>INDUMENTARIA</item>
+        <item>ELECTRONICA</item>
+        <item>ENTRETENIMIENTO</item>
+        <item>JARDIN</item>
+        <item>VEHICULOS</item>
+        <item>JUGUETES</item>
+    </string-array>
+    <string name="textoPlanoValido">[A-Za-z0-9,.\\n\\s]+</string>
+    <string name="correoValido">[A-Za-z0-9]+[.-_A-Za-z0-9]*@[A-Za-z]{3,}[.A-Za-z0-9]*</string>
+</resources>
