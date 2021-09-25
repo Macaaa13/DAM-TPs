@@ -11,21 +11,23 @@
         android:id="@+id/textViewTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/titulo" />
+        android:text="@string/titulo"
+        android:textSize="@dimen/text_size_titulo"/>
     <EditText
         android:id="@+id/editTextTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:minHeight="48dp"
+        android:minHeight="@dimen/min_heigh"
         android:hint="@string/textoTitulo"/>
 
     <TextView
         android:id="@+id/textViewDescripcion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/descripcion" />
+        android:text="@string/descripcion"
+        android:textSize="@dimen/text_size_titulo"/>
     <EditText
         android:id="@+id/editTextDescripcion"
         android:layout_width="match_parent"
@@ -34,13 +36,14 @@
         android:hint="@string/textoDescripcion"
         android:inputType="text|textMultiLine"
         android:maxLines="4"
-        android:minHeight="48dp" />
+        android:minHeight="@dimen/min_heigh" />
 
     <TextView
         android:id="@+id/textViewCorreo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/correo" />
+        android:text="@string/correo"
+        android:textSize="@dimen/text_size_titulo"/>
     <EditText
         android:id="@+id/editTextCorreo"
         android:layout_width="match_parent"
@@ -48,13 +51,14 @@
         android:ems="10"
         android:hint="@string/textoCorreo"
         android:inputType="textEmailAddress"
-        android:minHeight="48dp" />
+        android:minHeight="@dimen/min_heigh" />
 
     <TextView
         android:id="@+id/textViewPrecio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/precio" />
+        android:text="@string/precio"
+        android:textSize="@dimen/text_size_titulo"/>
     <EditText
         android:id="@+id/editTextPrecio"
         android:layout_width="match_parent"
@@ -62,13 +66,14 @@
         android:ems="10"
         android:hint="@string/textoPrecio"
         android:inputType="numberDecimal"
-        android:minHeight="48dp" />
+        android:minHeight="@dimen/min_heigh"/>
 
     <TextView
         android:id="@+id/textViewCategoria"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/categoria" />
+        android:text="@string/categoria"
+        android:textSize="@dimen/text_size_titulo"/>
 
     <Spinner
         android:id="@+id/spinnerCategoria"
@@ -76,7 +81,7 @@
         android:layout_height="wrap_content"
         android:dropDownWidth="wrap_content"
         android:dropDownSelector="@color/spinner"
-        android:minHeight="48dp"
+        android:minHeight="@dimen/min_heigh"
         android:spinnerMode="dropdown"
         tools:ignore="SpeakableTextPresentCheck"
         />
@@ -85,7 +90,7 @@
         android:id="@+id/switchDescuentoEnvio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="48dp"
+        android:minHeight="@dimen/min_heigh"
         android:text="@string/descuento" />
 
     <SeekBar
@@ -102,13 +107,14 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/porcentaje"
-        android:visibility="gone" />
+        android:visibility="gone"
+        android:textSize="@dimen/text_size_titulo"/>
 
     <CheckBox
         android:id="@+id/checkBoxRetiro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="48dp"
+        android:minHeight="@dimen/min_heigh"
         android:text="@string/retiroEnPersona" />
 
     <TextView
@@ -116,7 +122,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/direccionRetiro"
-        android:visibility="gone"/>
+        android:visibility="gone"
+        android:textSize="@dimen/text_size_titulo"/>
 
     <EditText
         android:id="@+id/editTextDireccionRetiro"
@@ -124,7 +131,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:minHeight="48dp"
+        android:minHeight="@dimen/min_heigh"
         android:hint="@string/textoDireccionRetiro"
         android:visibility="gone"/>
 
@@ -132,7 +139,7 @@
         android:id="@+id/checkBoxTerminos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="48dp"
+        android:minHeight="@dimen/min_heigh"
         android:text="@string/terminos" />
 
     <Button
